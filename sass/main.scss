@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.reviews__container {
+    
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.reviews__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.reviews__thumb {
+    display: block;
+    position: relative;
+    text-align: center;
+
+    margin-top: 32px;
+    background: #FAFAFA;
+    z-index: 9;
+}
+
+.reviews__thumb::before {
+    content: url(../images/jumpers.png);
+    position: absolute;
+    display: block;
+    left: 53px;
+    top: 30px;
+    z-index: -1;
+}
+
+.reviews__text {
+    // position: relative;
+    margin: auto;
+    padding-top: 43px;
+    width: 157px;
+    font-family: 'DM Sans';
+   font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.55;
+    text-align: center;    
+}
+
+
+// p::after {
+//     content: "";
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     display: block;
+//     width: 100%;
+//     height: 4px;
+//     border-radius: 2px;
+//     background-color: red;
+// }
+
+
+
+span {
+  background-image: linear-gradient(to right, #E1E1E1 0%, #E1E1E1 100%);
+  background-repeat: repeat-x; 
+  background-position: 0 100%; 
+  background-size: 100% 3px; 
+}
