@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
-
+@import './components/slick';
+@import './components/slick-theme';
 
 .reviews__container {
     padding-left: 20px;
@@ -66,11 +67,12 @@
     margin: 74px 50px 17px;
     width: 180px;
     height: 217px;
-    background: repeating-linear-gradient(transparent 0, transparent 29px,rgba(225, 225, 225, 1) 29px,rgba(225, 225, 225, 1) 30px);
+    background: repeating-linear-gradient(rgba(225, 225, 225, 1) 1px, transparent 3px 30px);
 
     @media screen and (min-width:768px) {
         width: 608px;
-        height: 93px;
+        height: 62px;
+        margin-top: 68px;
         
     }
 
